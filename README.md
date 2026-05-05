@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="mcpforge — Build MCP servers with decorators." width="100%"/>
+</p>
+
 # mcpforge
 
 > Ship an MCP server in 5 lines of Python.

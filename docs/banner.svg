@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="mcpforge — Build MCP servers with decorators.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0518"/>
+      <stop offset="100%" stop-color="#060a18"/>
+    </linearGradient>
+    <linearGradient id="namegrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#1f2937" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="forgeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <ellipse cx="970" cy="160" rx="380" ry="220" fill="url(#glow)"/>
+  <ellipse cx="160" cy="280" rx="240" ry="120" fill="url(#forgeglow)"/>
+
+  <!-- LEFT -->
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Inter, system-ui, sans-serif">
+    <g transform="translate(60, 80)">
+      <rect width="64" height="64" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2"/>
+      <text x="32" y="46" font-size="34" font-weight="800" fill="url(#namegrad)" text-anchor="middle" letter-spacing="-0.5">@</text>
+      <path d="M 0 8 L 0 0 L 8 0" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <path d="M 56 0 L 64 0 L 64 8" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <path d="M 64 56 L 64 64 L 56 64" fill="none" stroke="#22d3ee" stroke-width="2"/>
+      <path d="M 8 64 L 0 64 L 0 56" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    </g>
+
+    <text x="148" y="118" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#64748b" letter-spacing="2.5">~/mcpforge $ python -m server</text>
+
+    <text x="60" y="180" font-size="68" font-weight="800" fill="url(#namegrad)" letter-spacing="-2.5" filter="url(#neon)">
+      mcpforge
+    </text>
+
+    <text x="60" y="216" font-size="18" font-weight="500" fill="#cbd5e1" letter-spacing="0.3">
+      Build MCP servers with decorators. Schema, transport, done.
+    </text>
+
+    <g transform="translate(60, 240)" font-family="ui-monospace, Consolas, monospace">
+      <g><rect width="92" height="28" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.55"/><text x="46" y="19" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">DECORATORS</text></g>
+      <g transform="translate(104, 0)"><rect width="68" height="28" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.55"/><text x="34" y="19" font-size="11" font-weight="700" fill="#22d3ee" text-anchor="middle">SCHEMA</text></g>
+      <g transform="translate(184, 0)"><rect width="56" height="28" rx="14" fill="#0f172a" stroke="#fbbf24" stroke-opacity="0.55"/><text x="28" y="19" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle">STDIO</text></g>
+      <g transform="translate(252, 0)"><rect width="60" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.55"/><text x="30" y="19" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">TOOLS</text></g>
+      <g transform="translate(324, 0)"><rect width="86" height="28" rx="14" fill="#0f172a" stroke="#f0abfc" stroke-opacity="0.55"/><text x="43" y="19" font-size="11" font-weight="700" fill="#f0abfc" text-anchor="middle">RESOURCES</text></g>
+    </g>
+
+    <text x="60" y="304" font-family="ui-monospace, Consolas, monospace" font-size="10" fill="#475569" letter-spacing="2.4">
+      MIT  ·  MCP 1.0  ·  JSON-RPC 2.0  ·  CLAUDE · CURSOR · ZED
+    </text>
+  </g>
+
+  <!-- RIGHT: pipeline diagram. @tool fn → schema-gen → JSON-RPC envelope → MCP client -->
+  <g transform="translate(700, 50)">
+    <rect x="0" y="0" width="540" height="240" rx="10" fill="#070a14" stroke="#1e293b"/>
+    <rect x="0" y="0" width="540" height="26" rx="10" fill="#0f172a"/>
+    <rect x="0" y="18" width="540" height="8" fill="#0f172a"/>
+    <g font-family="ui-monospace, Consolas, monospace" font-size="10">
+      <circle cx="14" cy="13" r="3.5" fill="#ef4444"/>
+      <circle cx="26" cy="13" r="3.5" fill="#fbbf24"/>
+      <circle cx="38" cy="13" r="3.5" fill="#22d3ee"/>
+      <text x="56" y="17" fill="#64748b">forge.serve()</text>
+      <rect x="430" y="5" width="100" height="16" rx="8" fill="#1a0a1f" stroke="#a78bfa" stroke-opacity="0.55"/>
+      <text x="480" y="16" fill="#a78bfa" text-anchor="middle">SCHEMA OK</text>
+    </g>
+
+    <!-- @tool decorated function box -->
+    <g transform="translate(20, 50)" font-family="ui-monospace, Consolas, monospace">
+      <rect width="118" height="80" rx="6" fill="#0a0e1f" stroke="#a78bfa" stroke-opacity="0.7"/>
+      <text x="59" y="14" font-size="8" fill="#64748b" text-anchor="middle" letter-spacing="1.5">PYTHON</text>
+      <text x="10" y="32" font-size="10" fill="#fbbf24">@tool</text>
+      <text x="10" y="46" font-size="10" fill="#a78bfa">def</text>
+      <text x="34" y="46" font-size="10" fill="#cbd5e1">price(</text>
+      <text x="10" y="60" font-size="10" fill="#cbd5e1">  sym: str</text>
+      <text x="10" y="74" font-size="10" fill="#cbd5e1">) -&gt; <tspan fill="#22d3ee">Quote</tspan>:</text>
+    </g>
+
+    <text x="79" y="148" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="#64748b" text-anchor="middle">decorated fn</text>
+
+    <!-- arrow 1 -->
+    <g fill="none" stroke="url(#flow)" stroke-width="1.5" stroke-opacity="0.95">
+      <path d="M 138 90 L 168 90" stroke-linecap="round"/>
+      <polygon points="168,86 176,90 168,94" fill="#22d3ee"/>
+    </g>
+
+    <!-- schema autogen box -->
+    <g transform="translate(176, 60)" font-family="ui-monospace, Consolas, monospace">
+      <rect width="96" height="60" rx="6" fill="#0a0e1f" stroke="#22d3ee" stroke-opacity="0.7"/>
+      <text x="48" y="14" font-size="8" fill="#64748b" text-anchor="middle" letter-spacing="1.5">SCHEMA</text>
+      <text x="48" y="32" font-size="11" fill="#22d3ee" text-anchor="middle" font-weight="700">type infer</text>
+      <text x="48" y="48" font-size="9" fill="#94a3b8" text-anchor="middle">json-schema</text>
+    </g>
+    <text x="224" y="138" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="#64748b" text-anchor="middle">autogen</text>
+
+    <!-- arrow 2 -->
+    <g fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-opacity="0.9">
+      <path d="M 272 90 L 302 90" stroke-linecap="round"/>
+      <polygon points="302,86 310,90 302,94" fill="#22d3ee"/>
+    </g>
+
+    <!-- JSON-RPC envelope box with snippet -->
+    <g transform="translate(310, 50)" font-family="ui-monospace, Consolas, monospace">
+      <rect width="118" height="80" rx="6" fill="#0a0e1f" stroke="#fbbf24" stroke-opacity="0.7"/>
+      <text x="59" y="14" font-size="8" fill="#64748b" text-anchor="middle" letter-spacing="1.5">JSON-RPC 2.0</text>
+      <text x="10" y="32" font-size="9" fill="#fbbf24">{</text>
+      <text x="14" y="46" font-size="9" fill="#cbd5e1">"jsonrpc":</text>
+      <text x="14" y="58" font-size="9" fill="#22d3ee">"2.0",</text>
+      <text x="14" y="70" font-size="9" fill="#cbd5e1">"method": ...</text>
+      <text x="10" y="80" font-size="9" fill="#fbbf24">}</text>
+    </g>
+
+    <!-- arrow 3 -->
+    <g fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.9">
+      <path d="M 428 90 L 458 90" stroke-linecap="round"/>
+      <polygon points="458,86 466,90 458,94" fill="#fbbf24"/>
+    </g>
+
+    <!-- MCP client target -->
+    <g transform="translate(478, 90)">
+      <circle r="20" fill="#0a0e1f" stroke="#22d3ee" stroke-width="2"/>
+      <circle r="9" fill="#22d3ee">
+        <animate attributeName="r" values="6;10;6" dur="2.0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="44" font-family="ui-monospace, Consolas, monospace" font-size="9" fill="#22d3ee" text-anchor="middle" font-weight="700">CLIENT</text>
+      <text x="0" y="56" font-family="ui-monospace, Consolas, monospace" font-size="8" fill="#64748b" text-anchor="middle">claude</text>
+    </g>
+
+    <!-- JSON-RPC stream row beneath -->
+    <g transform="translate(20, 170)" font-family="ui-monospace, Consolas, monospace">
+      <text x="0" y="-2" font-size="8" fill="#64748b" letter-spacing="1.5">STREAM // jsonrpc frames</text>
+      <g>
+        <rect x="0" y="6" width="22" height="3" rx="1" fill="#a78bfa" opacity="0.85"/>
+        <rect x="28" y="6" width="38" height="3" rx="1" fill="#22d3ee" opacity="0.7"/>
+        <rect x="72" y="6" width="18" height="3" rx="1" fill="#fbbf24" opacity="0.85"/>
+        <rect x="96" y="6" width="50" height="3" rx="1" fill="#a78bfa" opacity="0.6"/>
+        <rect x="152" y="6" width="30" height="3" rx="1" fill="#22d3ee" opacity="0.8"/>
+        <rect x="188" y="6" width="42" height="3" rx="1" fill="#fbbf24" opacity="0.7"/>
+        <rect x="236" y="6" width="26" height="3" rx="1" fill="#a78bfa" opacity="0.85"/>
+        <rect x="268" y="6" width="60" height="3" rx="1" fill="#22d3ee" opacity="0.65"/>
+        <rect x="334" y="6" width="20" height="3" rx="1" fill="#fbbf24" opacity="0.85"/>
+        <rect x="360" y="6" width="46" height="3" rx="1" fill="#a78bfa" opacity="0.7"/>
+        <rect x="412" y="6" width="34" height="3" rx="1" fill="#22d3ee" opacity="0.8"/>
+        <rect x="452" y="6" width="48" height="3" rx="1" fill="#fbbf24" opacity="0.6"/>
+      </g>
+      <g font-size="8">
+        <text x="0" y="32" fill="#a78bfa">initialize</text>
+        <text x="76" y="32" fill="#22d3ee">tools/list</text>
+        <text x="158" y="32" fill="#fbbf24">tools/call</text>
+        <text x="244" y="32" fill="#a78bfa">resources/read</text>
+        <text x="356" y="32" fill="#22d3ee">notify</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0" y="318" width="1280" height="2" fill="#a78bfa" opacity="0.55"/>
+</svg>
